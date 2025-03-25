@@ -34,13 +34,28 @@ export default function Hero() {
 
   const clientLogos = [
     {
-      imageUrl: 'https://placehold.co/250x250?text=client1',
+      imageUrl: '/assets/img/client/havas-lynx-logo.png',
     },
     {
-      imageUrl: 'https://placehold.co/250x250?text=client2',
+      imageUrl: '/assets/img/client/ng-logo.png',
     },
     {
-      imageUrl: 'https://placehold.co/250x250?text=client2',
+      imageUrl: '/assets/img/client/trilogy-logo.png',
+    },
+    {
+      imageUrl: '/assets/img/client/chesire-basements-logo.png',
+    },
+    {
+      imageUrl: '/assets/img/client/cargo-overseas-logo.png',
+    },
+    {
+      imageUrl: '/assets/img/client/chesire-soilds-logo.png',
+    },
+    {
+      imageUrl: '/assets/img/client/cummings-engineering-logo.png',
+    },
+    {
+      imageUrl: '/assets/img/client/town-country-logo.png',
     },
   ];
 
@@ -95,7 +110,7 @@ export default function Hero() {
                           key={i}
                           width={250}
                           height={250}
-                          src='/assets/img/hero/dg-bee-mascot.png'
+                          src={elm.imageUrl}
                         />
                       ))}
                     </Slider>

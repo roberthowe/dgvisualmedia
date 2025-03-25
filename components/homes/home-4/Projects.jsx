@@ -19,7 +19,8 @@ export default function Projects() {
             <div key={i} className={elm.parentClass}>
               <Link
                 scroll={false}
-                href={`/project-details/${elm.id}`}
+                // href={`/project-details/${elm.id}`}
+                href='#'
                 className='portfolio-wrap style3'
               >
                 <div className='portfolio-thumb'>

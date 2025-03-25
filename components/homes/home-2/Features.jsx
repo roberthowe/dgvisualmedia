@@ -27,7 +27,8 @@ export default function Features() {
                 <p className='feature-card-text'>{elm.text}</p>
                 <Link
                   scroll={false}
-                  href={`/service-details/${elm.id}`}
+                  // href={`/service-details/${elm.id}`}
+                  href='#'
                   className='link-btn'
                 >
                   <span className='link-effect'>

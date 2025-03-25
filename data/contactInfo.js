@@ -20,17 +20,16 @@ export const contactInfo = [
 export const contactInfo2 = [
   {
     iconSrc: "/assets/img/icon/location-pin-alt.svg",
-    title: "Headquarters",
-    address: "27 Division St, New York,",
-    city: "NY 10002, USA",
-    linkUrl: "https://maps.google.com",
-    linkText: "Get direction",
+    title: "Find Us In",
+    address: "Altrincham",
+    city: "",
+    linkUrl: "https://www.google.com/maps/place/DG+Visual+Media+-+Design+-+Sign+%26+Display/data=!4m2!3m1!1s0x0:0x8c1bf9cbe1b0a0e5?sa=X&ved=1t:2428&ictx=111",
+    linkText: "Get directions",
   },
   {
     iconSrc: "/assets/img/icon/speech-bubble.svg",
     title: "Email Address",
     email: "info@dgvisualmedia.com",
-    email2: "info@dgvisualmedia.com",
     linkUrl: "mailto:info@dgvisualmedia.com",
 
     linkText: "Send message",
@@ -39,8 +38,7 @@ export const contactInfo2 = [
     iconSrc: "/assets/img/icon/phone.svg",
     title: "Phone Number",
     phoneNumber1: "07722508634",
-    phoneNumber2: "+1 800 223 984 002",
     linkUrl: "tel:07722508634",
-    linkText: "Call anytime",
+    linkText: "Cal Us",
   },
 ];

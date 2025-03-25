@@ -73,8 +73,8 @@ export default function Header2() {
               <Image
                 width={86}
                 height={24}
-                src='/assets/img/logo.svg'
-                alt='Ovation'
+                src='/assets/img/dg-logo.png'
+                alt='DG Visual Media'
               />
             </Link>
           </div>
@@ -125,7 +125,7 @@ export default function Header2() {
                       <Link
                         scroll={false}
                         href='/contact'
-                        className='btn text-white'
+                        className='btn text-white ms-5'
                       >
                         <span className='link-effect'>
                           <span className='effect-1'>Contact Us</span>

@@ -39,7 +39,7 @@ export default function Skills() {
                   from the status quo.
                 </p>
                 <div className='btn-wrap mt-50 justify-content-left'>
-                  <Link scroll={false} href='/project' className='btn'>
+                  <Link scroll={false} href='/contact' className='btn'>
                     <span className='link-effect'>
                       <span className='effect-1'>Find Out More</span>
                       <span className='effect-1'>Find Out More</span>

@@ -238,9 +238,14 @@
 .header-logo {
   padding-top: 15px;
   padding-bottom: 15px;
+
+  @include xs {
+    padding: 0;
+  }
 }
 
 .header-sticky .header-logo img {
+  width: 50px;
   filter: brightness(100);
 }
 
@@ -307,7 +312,7 @@
   position: relative;
   height: 60px;
   width: 60px;
-  border: 2px solid $black-color;
+  border: 0;
   border-radius: 50%;
   text-align: center;
   line-height: 54px;
@@ -411,8 +416,8 @@
     background: $title-color;
   }
   .sidebar-btn {
-    border-color: $black-color;
-    margin: 25px 0;
+    border-color: transparent;
+    margin: 15px 0;
     .line {
       background: $black-color;
     }
@@ -439,53 +444,7 @@
   }
   @include xs {
     .sticky-wrapper {
-      padding: 15px 0px;
-    }
-  }
-}
-/* Header 3 ---------------------------------- */
-.header-layout3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  .sticky-wrapper {
-    padding: 0px 36px;
-    .header-links {
-      a {
-        color: $white-color;
-      }
-    }
-  }
-  .main-menu > ul > li > a {
-    padding: 44.5px 20px;
-    &:before {
-      border-color: $white-color;
-    }
-    &:hover {
-      &:before {
-        background: $white-color;
-      }
-    }
-  }
-  @include ml {
-    .main-menu > ul > li > a {
-      padding: 44.5px 10px;
-    }
-  }
-  @include lg {
-    .header-button {
-      margin-left: 25px;
-    }
-  }
-  @include md {
-    .sticky-wrapper {
-      padding: 15px 36px;
-    }
-  }
-  @include xs {
-    .sticky-wrapper {
-      padding: 15px 0px;
+      padding: 0;
     }
   }
 }

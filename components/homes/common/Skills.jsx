@@ -28,7 +28,7 @@ export default function Skills() {
               <div className='title-area mb-0'>
                 <h2 className='sec-title'>Our Values</h2>
                 <p className='sec-text mt-35 mb-40'>
-                  Are we the right git for you?
+                  Are we the right fit for you?
                 </p>
                 <p className='sec-text mt-35 mb-40'>
                   We believe Potential is realised through pushing boundaries.

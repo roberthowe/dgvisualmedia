@@ -111,6 +111,7 @@ export default function Hero() {
                           width={250}
                           height={250}
                           src={elm.imageUrl}
+                          className='floating-image'
                         />
                       ))}
                     </Slider>

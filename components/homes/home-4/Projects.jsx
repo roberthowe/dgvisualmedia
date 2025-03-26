@@ -42,7 +42,7 @@ export default function Projects() {
           ))}
         </div>
         <div className='btn-wrap mt-50 justify-content-center'>
-          <Link scroll={false} href='/work' className='btn'>
+          <Link scroll={false} href='#' className='btn'>
             <span className='link-effect'>
               <span className='effect-1'>VIEW ALL PROJECTS</span>
               <span className='effect-1'>VIEW ALL PROJECTS</span>

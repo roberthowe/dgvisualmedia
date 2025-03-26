@@ -239,6 +239,11 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.header-sticky .header-logo img {
+  filter: brightness(100);
+}
+
 .header-links {
   > ul {
     margin: 0;

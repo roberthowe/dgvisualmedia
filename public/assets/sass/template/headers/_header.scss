@@ -307,7 +307,7 @@
   position: relative;
   height: 60px;
   width: 60px;
-  border: 2px solid $title-color;
+  border: 2px solid $black-color;
   border-radius: 50%;
   text-align: center;
   line-height: 54px;
@@ -316,7 +316,7 @@
     display: block;
     height: 2px;
     width: 18px;
-    background: $title-color;
+    background: $black-color;
     margin: auto;
     transition: 0.4s;
     &:not(:last-child) {
@@ -411,6 +411,13 @@
     background: $title-color;
   }
   .sidebar-btn {
+    border-color: $black-color;
+    margin: 25px 0;
+    .line {
+      background: $black-color;
+    }
+  }
+  .header-sticky .sidebar-btn {
     border-color: $white-color;
     margin: 25px 0;
     .line {

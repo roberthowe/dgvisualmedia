@@ -97,7 +97,7 @@ export default function Hero() {
                 </div>
                 <div className='col-lg-5 align-self-center position-relative'>
                   <div
-                    className='text-center'
+                    className='text-center pb-5 pb-md-0'
                     data-ani='slideindown'
                     data-ani-delay='0.3s'
                   >

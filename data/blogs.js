@@ -11,7 +11,7 @@ export const blogs = [
 
     icon: "/assets/img/icon/arrow-left-top.svg",
     htmlContent: `<p class="mb-4">
-    Vehicle graphics are one of the most cost-effective ways to advertise a business to a wide and localised audience. For companies operating in Manchester, Stockport, Altrincham, and other surrounding areas, branded vehicles are not just transportation—they are moving billboards that generate thousands of daily impressions. DG Visual Media offers bespoke vehicle wrapping and graphics services that help businesses of all sizes turn their vans, cars, and fleets into eye-catching, brand-building machines.
+    Vehicle graphics are one of the most cost-effective ways to advertise a business to a wide and localised audience. For companies operating in Manchester, Stockport, Altrincham, and other surrounding areas, branded vehicles are not just transportation, they are moving billboards that generate thousands of daily impressions. DG Visual Media offers bespoke vehicle wrapping and graphics services that help businesses of all sizes turn their vans, cars, and fleets into eye-catching, brand-building machines.
   </p>
 
   <h2 class="mt-5 mb-3">Branding on the Move: Visibility that Travels</h2>
@@ -53,7 +53,7 @@ export const blogs = [
   </ul>
 
   <p class="mb-4">
-    Clients working with DG Visual Media can expect a full design-to-installation service. The company not only produces graphics but ensures they align with your overall branding—be it from your shop front signage or digital presence.
+    Clients working with DG Visual Media can expect a full design-to-installation service. The company not only produces graphics but ensures they align with your overall branding, be it from your shop front signage or digital presence.
   </p>
 
   <h2 class="mt-5 mb-3">Fleet Branding for Business Growth</h2>
@@ -63,7 +63,7 @@ export const blogs = [
   </p>
 
   <p class="mb-4">
-    DG Visual Media has supported various businesses in Greater Manchester with full fleet branding solutions—from design concepts to installation and ongoing graphic updates. By branding multiple vehicles, businesses are able to dominate local visibility and instil trust through professional presentation.
+    DG Visual Media has supported various businesses in Greater Manchester with full fleet branding solutions from design concepts to installation and ongoing graphic updates. By branding multiple vehicles, businesses are able to dominate local visibility and instil trust through professional presentation.
   </p>
 
   <h2 class="mt-5 mb-3">Why Manchester Businesses Trust DG Visual Media</h2>
@@ -73,7 +73,7 @@ export const blogs = [
   </p>
 
   <p class="mb-4">
-    Clients consistently return for not only vehicle wrapping but also complementary services such as <a href="#">shop front signage</a>, <a href="#">website design</a>, and <a href="#">logo development</a>. For businesses aiming to build a cohesive brand across physical and digital platforms, DG Visual Media is the local expert that delivers every time.
+    Clients consistently return for not only vehicle wrapping but also complementary services such as shop front signage, website design, and logo development. For businesses aiming to build a cohesive brand across physical and digital platforms, DG Visual Media is the local expert that delivers every time.
   </p>
 
   <h2 class="mt-5 mb-3">Explore More Branding Services</h2>
@@ -83,9 +83,9 @@ export const blogs = [
   </p>
 
   <ul class="mb-4">
-    <li><a href="#">Shop Front Signage</a> – Drive foot traffic with professional signage</li>
-    <li><a href="#">Logo Design</a> – Make your mark with a memorable identity</li>
-    <li><a href="#">Website Design</a> – Grow your online presence across Cheshire and Manchester</li>
+    <li><a href="/service-details/sign-and-display">Shop Front Signage</a> – Drive foot traffic with professional signage</li>
+    <li><a href="/service-details/branding">Logo Design</a> – Make your mark with a memorable identity</li>
+    <li><a href="/service-details/branding">Website Design</a> – Grow your online presence across Cheshire and Manchester</li>
   </ul>
 
   <h2 class="mt-5 mb-3">Ready to Take Your Brand on the Road?</h2>
@@ -108,7 +108,7 @@ export const blogs = [
     metaDescription: 'Explore how DG Visual Media’s shop front signage increases foot traffic and visibility across Manchester, Cheshire, and surrounding towns.',
     preview: 'Boost your business visibility with shop front signage designed by DG Visual Media across Manchester, Stockport, and Cheshire.',
     htmlContent: `<p class="mb-4">
-    For high street businesses across Manchester, Stockport, Altrincham, and Cheshire, your shop front is often your first interaction with a customer. A bold, clear, and well-designed sign is not just decorative—it is a powerful business asset that directly impacts visibility, footfall, and brand perception. DG Visual Media specialises in creating shop front signage that helps local businesses stand out in a competitive landscape.
+    For high street businesses across Manchester, Stockport, Altrincham, and Cheshire, your shop front is often your first interaction with a customer. A bold, clear, and well-designed sign is not just decorative, it is a powerful business asset that directly impacts visibility, footfall, and brand perception. DG Visual Media specialises in creating shop front signage that helps local businesses stand out in a competitive landscape.
   </p>
 
   <h2 class="mt-5 mb-3">Why First Impressions Matter in Local Business</h2>
@@ -122,7 +122,7 @@ export const blogs = [
   </p>
 
   <p class="mb-4">
-    Think of your sign as your handshake with the street. It should be readable from a distance, appropriately lit, and aligned with your overall brand identity—elements DG Visual Media integrates seamlessly into every signage project.
+    Think of your sign as your handshake with the street. It should be readable from a distance, appropriately lit, and aligned with your overall brand identity elements, DG Visual Media integrates seamlessly into every signage project.
   </p>
 
   <h2 class="mt-5 mb-3">Common Mistakes to Avoid in Shop Signage</h2>
@@ -166,7 +166,7 @@ export const blogs = [
   <ul class="mb-4">
     <li><a href="/service-details/branding">Logo Design</a> – Create a timeless and professional brand mark</li>
     <li><a href="/service-details/branding">Website Design</a> – Ensure your online presence matches your storefront</li>
-    <li><a href="#">Vehicle Graphics</a> – Take your brand mobile with eye-catching vehicle wraps</li>
+    <li><a href="/service-details/vehicle-wrapping">Vehicle Graphics</a> – Take your brand mobile with eye-catching vehicle wraps</li>
   </ul>
 
   <h2 class="mt-5 mb-3">Let Your Shopfront Do the Talking</h2>
@@ -236,11 +236,6 @@ export const blogs = [
   <p class="mb-4">
     Each logo is built with intention. Each website is crafted to perform. Together, they deliver more than good looks—they create a clear, consistent voice for your business in the crowded marketplace.
   </p>
-
-  <ul class="mb-4">
-    <li><a href="">Explore Our Logo Design Work</a></li>
-    <li><a href="/contact">Get in Touch for a Design Consultation</a></li>
-  </ul>
 
   <h2 class="mt-5 mb-3">Your Brand Starts with a Conversation</h2>
 

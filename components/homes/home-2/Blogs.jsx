@@ -10,7 +10,7 @@ export default function Blogs() {
         <div className='row justify-content-center'>
           <div className='col-xxl-7 col-xl-6 col-lg-8'>
             <div className='title-area text-center'>
-              <h2 className='sec-title'>Case Studies</h2>
+              <h2 className='sec-title'>Latest From Our Blog</h2>
             </div>
           </div>
         </div>
@@ -19,8 +19,8 @@ export default function Blogs() {
             <div key={i} className='col-lg-4 col-md-6'>
               <Link
                 scroll={false}
-                // href={`/blog-details/${elm.id}`}
-                href='#'
+                href={`/blog/${elm.slug}`}
+                // href='#'
                 className='blog-card style2'
               >
                 <div className='blog-img'>

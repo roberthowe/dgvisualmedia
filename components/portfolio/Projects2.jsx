@@ -7,32 +7,36 @@ export default function Projects2() {
   return (
     <div className='portfolio-area-1 space overflow-hidden'>
       <div className='container'>
-        <div className='row gy-4 justify-content-center'>
-          {portfolioData.map((elm, i) => (
+        <div className='row gy-4 justify-content-center masonary-active d-flex align-items-stretch'>
+          {portfolioData.slice(0, 4).map((elm, i) => (
             <div key={i} className={elm.parentClass}>
-              <Link
-                scroll={false}
-                href={`/project-details/${elm.slug}`}
-                className='portfolio-wrap style3'
-              >
-                <div className='portfolio-thumb'>
-                  <Image
-                    width={746}
-                    height={540}
-                    src={elm.imageUrl}
-                    alt='portfolio'
-                  />
-                </div>
-                <div className='portfolio-details'>
-                  <ul className='portfolio-meta'>
-                    <li>{elm.category}</li>
-                  </ul>
-                  <h3 className='portfolio-title'>{elm.title}</h3>
-                </div>
-              </Link>
+              <div className='portfolio-card h-100'>
+                <Link
+                  scroll={false}
+                  href={`/project-details/${elm.slug}`}
+                  className='portfolio-wrap style3 h-100 w-100'
+                >
+                  <div className='portfolio-thumb h-100 w-100'>
+                    <Image
+                      width={746}
+                      height={540}
+                      src={elm.imageUrl}
+                      alt='portfolio'
+                      className='img-fluid h-100 w-100 object-fit-cover'
+                    />
+                  </div>
+                  <div className='portfolio-details'>
+                    <ul className='portfolio-meta'>
+                      <li>{elm.category}</li>
+                    </ul>
+                    <h3 className='portfolio-title'>{elm.title}</h3>
+                  </div>
+                </Link>
+              </div>
             </div>
           ))}
         </div>
+
         {/* TODO if lazy loading needed for future  */}
         {/* <div className='btn-wrap justify-content-center mt-60'>
           <Link scroll={false} className='btn' href={`/project`}>

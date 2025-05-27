@@ -1,12 +1,24 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 export default function ContactForm() {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState('');
+
+  const images = [
+    '/assets/img/dg/dg-workshop-1.webp',
+    '/assets/img/dg/dg-workshop-2.webp',
+    '/assets/img/dg/dg-workshop-3.webp',
+  ];
+
+  // Select a random image once per component load
+  const randomImage = useMemo(() => {
+    const index = Math.floor(Math.random() * images.length);
+    return images[index];
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -50,12 +62,8 @@ export default function ContactForm() {
         data-top='-100px'
         data-bottom='140px'
       >
-        <Image
-          width={838}
-          height={788}
-          src='/assets/img/dg/dg-workshop-3.webp'
-          alt='img'
-        />
+        {/* // TODO make this random could be 1 of 3 or 4 images */}
+        <Image width={838} height={788} src={randomImage} alt='img' />
       </div>
       <div className='container'>
         <div className='row align-items-center justify-content-end'>

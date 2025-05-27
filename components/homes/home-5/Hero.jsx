@@ -112,10 +112,8 @@ export default function Hero() {
                       className='row client-carousel'
                     >
                       {clientLogos.map((elm, i) => (
-                        <Image
+                        <img
                           key={i}
-                          width={250}
-                          height={250}
                           src={elm.imageUrl}
                           className='floating-image'
                         />

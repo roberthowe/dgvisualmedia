@@ -41,8 +41,8 @@ export default function Skills() {
                 <div className='btn-wrap mt-50 justify-content-left'>
                   <Link scroll={false} href='/contact' className='btn'>
                     <span className='link-effect'>
-                      <span className='effect-1'>Find Out More</span>
-                      <span className='effect-1'>Find Out More</span>
+                      <span className='effect-1'>Get In Touch Now</span>
+                      <span className='effect-1'>Get In Touch Now</span>
                     </span>
                   </Link>
                 </div>

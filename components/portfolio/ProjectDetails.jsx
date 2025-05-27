@@ -32,9 +32,12 @@ export default function ProjectDetails({ portfolioItem }) {
                   <span>Client:</span>
                   {portfolioItem.title}
                 </li>
-                <li>
-                  <span>Date:</span>October 6, 2023
-                </li>
+                {portfolioItem.date && (
+                  <li>
+                    <span>Date:</span>
+                    {portfolioItem.date}
+                  </li>
+                )}
               </ul>
             </div>
           </div>

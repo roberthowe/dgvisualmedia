@@ -6,9 +6,6 @@ import ContactForm from '@/components/contact/ContactForm';
 
 import ProjectDetails from '@/components/portfolio/ProjectDetails';
 import { allPortfolio } from '@/data/portfolio';
-export const metadata = {
-  title: 'Project Details || DG Visual Media - Design - Sign & Display',
-};
 
 //For Static Side Genaration(SSG)
 
@@ -16,6 +13,24 @@ export async function generateStaticParams() {
   return allPortfolio.map((elm) => ({
     slug: `${elm.slug}`,
   }));
+}
+
+export async function generateMetadata({ params }) {
+  const portfolioItem = allPortfolio.filter(
+    (elm) => elm.slug === params.slug
+  )[0];
+
+  if (!portfolioItem) {
+    return {
+      title: 'Service Not Found | DG Visual Media',
+      description: 'The requested service could not be found.',
+    };
+  }
+
+  return {
+    title: `${portfolioItem.title} | DG Visual Media`,
+    description: portfolioItem.metaDescription,
+  };
 }
 
 export default function ProjectPageDetails({ params }) {

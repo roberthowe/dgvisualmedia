@@ -1,4 +1,4 @@
-
+// TODO add text for meta description
 
 export const portfolioData = [
   {
@@ -16,6 +16,7 @@ export const portfolioData = [
       "/assets/img/portfolio/msb-4.webp",
       "/assets/img/portfolio/msb-5.webp",
     ],
+    metaDescription: "",
     htmlContent: `
     <p class='sec-text mt-30'>MSB is social media personality known for his weekly car reviews on YouTube. His channel boasts over 280,000 subscribers.</p>
     <p class='sec-text mt-30'>We were asked to design & install a graphic wrap as part of a Golf GTI overhaul that featured on the channel.</p>
@@ -35,6 +36,7 @@ export const portfolioData = [
       "/assets/img/portfolio/pure-padel-2-square.webp",
       "/assets/img/portfolio/pure-padel-3-square.webp",
     ],
+    metaDescription: "",
     htmlContent: `
     <p class='sec-text'>Pure Padel are at the forefront of ‘Padel’ the rapid growth of the next generation of racquet sports in the UK.</p>
     <p class='sec-text mt-30'>To bring their newly fabricated kiosk inline with the Pure Padel branding, we were asked to produce & install a printed wrap.</p>
@@ -55,6 +57,7 @@ export const portfolioData = [
       "/assets/img/portfolio/ng-transport-2-square.webp",
       "/assets/img/portfolio/ng-transport-3-square.webp",
     ],
+    metaDescription: "",
     htmlContent: `
     <p class='sec-text mt-30'>NG Transport approached DG Visual Media several years back looking for a fresh look for the their vehicle livery.</p>
     <p class='sec-text mt-30'>They had a logo which had been created by a friend many years ago when the company was starting out. This had served a purpose to get them going but wasn’t serving to provide the visual identity that reflects their professional service.</p>
@@ -68,7 +71,7 @@ export const portfolioData = [
   {
     id: 4,
     slug: 'trilogy-freight',
-    imageUrl: "/assets/img/portfolio/trilogy-1.webp",
+    imageUrl: "/assets/img/portfolio/trilogy-1-square.webp",
     category: "Vehicle Graphic",
     title: "Trilogy Freight",
     service: "Vehicle Graphic",

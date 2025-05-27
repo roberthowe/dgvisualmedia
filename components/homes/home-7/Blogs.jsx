@@ -19,7 +19,7 @@ export default function Blogs() {
             <div key={i} className='col-lg-4 col-md-6'>
               <Link
                 scroll={false}
-                href={`/blog-details/${elm.id}`}
+                href={`/blog/${elm.slug}`}
                 className='blog-card style2'
               >
                 <div className='blog-img'>

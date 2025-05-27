@@ -6,7 +6,7 @@ import Contact from '@/components/service/Contact';
 import Features2 from '@/components/service/Features2';
 
 export const metadata = {
-  title: 'Service 2 || Frisk - Creative Agency & Portfolio Nextjs Template',
+  title: 'Service 2 || DG Visual Media - Design - Sign & Display',
 };
 
 import React from 'react';

@@ -1,6 +1,43 @@
 'use client';
 
+import { useState } from 'react';
+
 export default function Contact() {
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setError('');
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch('https://usebasin.com/f/7df42150367c', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          Accept: 'application/json',
+        },
+      });
+
+      if (response.ok) {
+        setFormSubmitted(true);
+        form.reset();
+      } else {
+        setError('Something went wrong. Please try again.');
+      }
+    } catch (err) {
+      console.error(err);
+      setError('An error occurred. Please try again later.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <div className='contact-area-1 space bg-theme shape-mockup-wrap'>
       <div
@@ -15,6 +52,7 @@ export default function Contact() {
           loading='lazy'
         ></iframe>
       </div>
+
       <div className='container'>
         <div className='row align-items-center justify-content-end'>
           <div className='col-lg-6'>
@@ -26,68 +64,81 @@ export default function Contact() {
                   something
                 </p>
               </div>
-              <form
-                onSubmit={(e) => e.preventDefault()}
-                className='contact-form ajax-contact'
-              >
-                <div className='row'>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
-                      <input
-                        required
-                        type='text'
-                        className='form-control style-border'
-                        name='name'
-                        id='name'
-                        placeholder='Full name*'
-                      />
-                    </div>
-                  </div>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
-                      <input
-                        required
-                        type='text'
-                        className='form-control style-border'
-                        name='email'
-                        id='email'
-                        placeholder='Email address*'
-                      />
-                    </div>
-                  </div>
-                  <div className='col-lg-12'>
-                    <div className='form-group'>
-                      <input
-                        required
-                        type='text'
-                        className='form-control style-border'
-                        name='website'
-                        id='website'
-                        placeholder='Website link'
-                      />
-                    </div>
-                  </div>
-                  <div className='col-lg-12'>
-                    <div className='form-group'>
-                      <textarea
-                        required
-                        name='message'
-                        placeholder='How Can We Help You*'
-                        id='contactForm'
-                        className='form-control style-border'
-                      ></textarea>
-                    </div>
-                  </div>
+
+              {formSubmitted ? (
+                <div className='alert alert-success'>
+                  Thanks for your message! We'll be in touch soon.
                 </div>
-                <div className='form-btn col-12'>
-                  <button type='submit' className='btn mt-20'>
-                    <span className='link-effect'>
-                      <span className='effect-1'>SEND MESSAGE</span>
-                      <span className='effect-1'>SEND MESSAGE</span>
-                    </span>
-                  </button>
-                </div>
-              </form>
+              ) : (
+                <form
+                  onSubmit={handleSubmit}
+                  className='contact-form ajax-contact'
+                >
+                  <div className='row'>
+                    <div className='col-md-6'>
+                      <div className='form-group'>
+                        <input
+                          required
+                          type='text'
+                          className='form-control style-border'
+                          name='name'
+                          placeholder='Full name*'
+                        />
+                      </div>
+                    </div>
+                    <div className='col-md-6'>
+                      <div className='form-group'>
+                        <input
+                          required
+                          type='email'
+                          className='form-control style-border'
+                          name='email'
+                          placeholder='Email address*'
+                        />
+                      </div>
+                    </div>
+                    <div className='col-lg-12'>
+                      <div className='form-group'>
+                        <select
+                          name='service'
+                          className='form-control style-border'
+                          required
+                          defaultValue=''
+                        >
+                          <option value='' disabled>
+                            Service of interest
+                          </option>
+                          <option value='Branding'>Branding</option>
+                          <option value='Sign & Display'>Sign & Display</option>
+                          <option value='Vehicle Graphic Wraps & Decals'>
+                            Vehicle Graphic Wraps & Decals
+                          </option>
+                          <option value='Wall Art'>Wall Art</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  {error && <div className='alert alert-danger'>{error}</div>}
+
+                  <div className='form-btn col-12'>
+                    <button
+                      type='submit'
+                      className='btn mt-20'
+                      disabled={isSubmitting}
+                    >
+                      <span className='link-effect'>
+                        <span className='effect-1'>
+                          {isSubmitting ? 'Sending...' : 'SEND MESSAGE'}
+                        </span>
+                        <span className='effect-1'>
+                          {isSubmitting ? 'Sending...' : 'SEND MESSAGE'}
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </form>
+              )}
             </div>
           </div>
         </div>

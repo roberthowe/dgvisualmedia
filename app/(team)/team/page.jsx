@@ -8,7 +8,7 @@ import Team from '@/components/team/Team';
 import React from 'react';
 
 export const metadata = {
-  title: 'Team || Frisk - Creative Agency & Portfolio Nextjs Template',
+  title: 'Team || DG Visual Media - Design - Sign & Display',
 };
 
 export default function TeamPage() {

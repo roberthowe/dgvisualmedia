@@ -9,7 +9,7 @@ export default function Hero() {
         <Image
           width={1082}
           height={728}
-          src='/assets/img/hero/hero-2-1.jpg'
+          src='/assets/img/hero/pure-padel-2.webp'
           alt='img'
         />
       </div>

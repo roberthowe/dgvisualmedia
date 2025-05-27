@@ -9,18 +9,18 @@ export default function Features1() {
       <div className='container'>
         <div className='row gy-4 align-items-center justify-content-center'>
           {featureData.map((elm, i) => (
-            <div key={i} className='col-xl-4 col-md-6'>
+            <div key={i} className='col-md-6'>
               <div className='feature-card'>
                 <div className='feature-card-icon'>
                   <Image width={40} height={40} src={elm.iconSrc} alt='icon' />
                 </div>
                 <h4 className='feature-card-title'>
-                  <a href='#'>{elm.title}</a>
+                  <a href={`/service-details/${elm.slug}`}>{elm.title}</a>
                 </h4>
                 <p className='feature-card-text'>{elm.text}</p>
                 <Link
                   scroll={false}
-                  href={`/service-details/${elm.id}`}
+                  href={`/service-details/${elm.slug}`}
                   className='link-btn'
                 >
                   <span className='link-effect'>

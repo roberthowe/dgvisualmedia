@@ -68,15 +68,16 @@ export default function BlogList1() {
                     </div>
                   ))}
                 </div>
-                <Pagination />
+                {/* <Pagination /> */}
               </div>
             </div>
             <div className='col-30'>
               <aside className='blog__sidebar'>
-                <BlogSerchbar />
-                <Categories />
+                {/* TODO add contact cta? */}
+                {/* <BlogSerchbar /> */}
+                {/* <Categories /> */}
                 <RecentPosts />
-                <Tags />
+                {/* <Tags /> */}
               </aside>
             </div>
           </div>

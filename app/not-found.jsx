@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 
 export const metadata = {
-  title: 'Not Found || Frisk - Creative Agency & Portfolio Nextjs Template',
+  title: 'Not Found || DG Visual Media - Design - Sign & Display',
 };
 export default function NotFoundPage() {
   return (

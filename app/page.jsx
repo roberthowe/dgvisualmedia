@@ -10,7 +10,8 @@ import React from 'react';
 import Cta from '@/components/homes/home-2/Cta';
 import Footer from '@/components/footers/Footer';
 export const metadata = {
-  title: 'DG Visual || TODO',
+  title:
+    'DG Visual | Manchester Branding & Signage Experts | Shop Fronts, Vehicle Graphics & Web Design in Cheshire',
 };
 export default function HomePage2() {
   return (

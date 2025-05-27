@@ -15,7 +15,7 @@ import { allBlogs } from '@/data/blogs';
 // }
 
 export const metadata = {
-  title: 'Blog Details || Frisk - Creative Agency & Portfolio Nextjs Template',
+  title: 'Blog Details || DG Visual Media - Design - Sign & Display',
 };
 
 export default function BlogPageDetails({ params }) {

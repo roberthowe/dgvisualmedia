@@ -8,7 +8,7 @@ import Header from '@/components/headers/Header';
 import React from 'react';
 
 export const metadata = {
-  title: 'Faq || Frisk - Creative Agency & Portfolio Nextjs Template',
+  title: 'Faq || DG Visual Media - Design - Sign & Display',
 };
 export default function FaqPage() {
   return (

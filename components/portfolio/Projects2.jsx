@@ -12,7 +12,7 @@ export default function Projects2() {
             <div key={i} className={elm.parentClass}>
               <Link
                 scroll={false}
-                href={`/project-details/${elm.id}`}
+                href={`/project-details/${elm.slug}`}
                 className='portfolio-wrap style3'
               >
                 <div className='portfolio-thumb'>
@@ -33,14 +33,15 @@ export default function Projects2() {
             </div>
           ))}
         </div>
-        <div className='btn-wrap justify-content-center mt-60'>
+        {/* TODO if lazy loading needed for future  */}
+        {/* <div className='btn-wrap justify-content-center mt-60'>
           <Link scroll={false} className='btn' href={`/project`}>
             <span className='link-effect'>
               <span className='effect-1'>LOAD MORE</span>
               <span className='effect-1'>LOAD MORE</span>
             </span>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

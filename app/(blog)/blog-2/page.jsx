@@ -7,7 +7,7 @@ import Header from '@/components/headers/Header';
 import React from 'react';
 
 export const metadata = {
-  title: 'Blog 2 || Frisk - Creative Agency & Portfolio Nextjs Template',
+  title: 'Blog 2 || DG Visual Media - Design - Sign & Display',
 };
 export default function BlogPage2() {
   return (

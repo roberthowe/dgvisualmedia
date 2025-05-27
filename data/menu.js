@@ -1,20 +1,20 @@
 export const menuItems = [
   {
     id: 1,
-    title: "Work",
-    link: "#",
+    title: "Our Work",
+    link: "/work",
     isActive: true,
   },
   {
     id: 2,
     title: "Services",
-    link: "#",
+    link: "/services",
     isActive: true,
   },
   {
     id: 3,
-    title: "Case Studies",
-    link: "#",
+    title: "Blog",
+    link: "/blog",
     isActive: true,
   },
 ];

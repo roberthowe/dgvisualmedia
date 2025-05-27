@@ -15,12 +15,11 @@ export default function Projects() {
           </div>
         </div>
         <div className='row gy-4 justify-content-center masonary-active'>
-          {portfolioData.slice(0, 3).map((elm, i) => (
+          {portfolioData.slice(0, 4).map((elm, i) => (
             <div key={i} className={elm.parentClass}>
               <Link
                 scroll={false}
-                // href={`/project-details/${elm.id}`}
-                href='#'
+                href={`/project-details/${elm.slug}`}
                 className='portfolio-wrap style3'
               >
                 <div className='portfolio-thumb'>
@@ -42,7 +41,7 @@ export default function Projects() {
           ))}
         </div>
         <div className='btn-wrap mt-50 justify-content-center'>
-          <Link scroll={false} href='#' className='btn'>
+          <Link scroll={false} href='/work' className='btn'>
             <span className='link-effect'>
               <span className='effect-1'>VIEW ALL PROJECTS</span>
               <span className='effect-1'>VIEW ALL PROJECTS</span>

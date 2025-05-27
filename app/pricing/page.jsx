@@ -8,7 +8,7 @@ import Pricing from '@/components/pricing/Pricing';
 import React from 'react';
 
 export const metadata = {
-  title: 'Pricing || Frisk - Creative Agency & Portfolio Nextjs Template',
+  title: 'Pricing || DG Visual Media - Design - Sign & Display',
 };
 export default function PricingPage() {
   return (

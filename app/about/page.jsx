@@ -12,7 +12,7 @@ import Header from '@/components/headers/Header';
 import React from 'react';
 
 export const metadata = {
-  title: 'About || Frisk - Creative Agency & Portfolio Nextjs Template',
+  title: 'About || DG Visual Media - Design - Sign & Display',
 };
 
 export default function AboutPage() {

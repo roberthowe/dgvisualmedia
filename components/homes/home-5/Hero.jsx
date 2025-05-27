@@ -4,14 +4,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import Slider from 'react-slick';
+import Typewriter from 'typewriter-effect';
 
 export default function Hero() {
-  // useEffect(() => {
-  //   document.body.classList.add('bg-title');
-  //   return () => {
-  //     document.body.classList.remove('bg-title');
-  //   };
-  // }, []);
   useEffect(() => {
     addGsap();
   }, []);
@@ -65,7 +60,9 @@ export default function Hero() {
         <div>
           <div
             className='hero-slider background-image por'
-            style={{ backgroundImage: 'url(/assets/img/hero/hero-5-1.webp)' }}
+            style={{
+              backgroundImage: 'url(/assets/img/dg/DG_Hero.webp)',
+            }}
           >
             <div
               className='hero-overlay'
@@ -81,8 +78,17 @@ export default function Hero() {
                       data-ani='slideindown'
                       data-ani-delay='0.1s'
                     >
-                      We Create <br />
-                      To Elevate <br />
+                      We{' '}
+                      <Typewriter
+                        options={{
+                          strings: ['Create', 'Innovate', 'Collaborate'],
+                          autoStart: true,
+                          loop: true,
+                          cursor: '',
+                        }}
+                      />
+                      To Elevate
+                      <br />
                       Your Business
                     </h1>
                     <p

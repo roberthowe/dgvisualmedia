@@ -17,7 +17,7 @@ export default function Skills() {
         <Image
           width={838}
           height={788}
-          src='/assets/img/normal/service_2-1.jpg'
+          src='/assets/img/dg/dg-our-values.webp'
           alt='img'
         />
       </div>

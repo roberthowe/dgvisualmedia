@@ -42,11 +42,14 @@
   overflow: hidden !important;
   transition: 0.5s;
 }
-.activeMenu {
-  color: var(--success-color) !important;
-}
-.activeMenu2 {
-  color: var(--success-color) !important;
-  font-weight: 600 !important;
-  font-size: larger !important;
+
+.header-sticky {
+  .activeMenu {
+    color: var(--theme-color) !important;
+  }
+  .activeMenu2 {
+    color: var(--theme-color) !important;
+    font-weight: 600 !important;
+    font-size: larger !important;
+  }
 }

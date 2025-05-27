@@ -106,7 +106,7 @@
 }
 @include xl {
   .hero-title {
-    font-size: 90px;
+    font-size: 80px;
   }
   .hero-text {
     font-size: 16px;
@@ -436,7 +436,7 @@
   padding-top: 270px;
   padding-bottom: 75px;
   .hero-title {
-    font-size: 90px;
+    font-size: 80px;
     line-height: 1.0625em;
     color: $black-color;
     font-weight: 600;
@@ -444,6 +444,7 @@
   }
   .hero-text {
     color: $black-color;
+    font-weight: bold;
     max-width: 416px;
     line-height: 30px;
     margin-top: 27px;
@@ -487,7 +488,7 @@
 }
 @include xl {
   .hero-style5 .hero-title {
-    font-size: 90px;
+    font-size: 80px;
   }
 }
 @include ml {

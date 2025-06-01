@@ -7,8 +7,8 @@ export const testimonialData = [
   },
   {
     id: 2,
-    text: "Darren and the team were brilliant in helping to design and produce our external/internal signage and the wall art - all of which look fantastic! Highly recommend DG Visual Media, professional and friendly throughout the whole process.",
-    name: "Cyber Security Specialists",
+    text: "Darren is our go to man for livery on our fleet of company vans and wagons. Great & fast service every-time, highly recommend!",
+    name: "Cummins Civil Engineering",
     // designation: "Cyber Security Specialists",
   },
   {

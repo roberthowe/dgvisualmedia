@@ -26,6 +26,8 @@ export const featureData = [
     <p class='sec-text mt-30'>We provide a complete ‘one-stop-shop’ solution for all your sign and display needs. Whether it’s eye-catching shop-front signage, impactful point-of-sale displays, promotional banners, or interior and exterior signs, we bring your brand to life. Our end-to-end service covers everything from concept development and creative design to expert manufacturing and seamless installation. No matter the scale of your project, we’re here to ensure your brand stands out with stunning visual impact.</p>
     `,
     galleryImages: [
+      "/assets/img/portfolio/square/signs/divine-wellness-square.webp",
+      "/assets/img/portfolio/square/signs/ems-lounge-square.webp",
       "/assets/img/portfolio/pure-padel-1-square.webp",
       "/assets/img/portfolio/pure-padel-3-square.webp",
       "/assets/img/portfolio/trilogy-3-square.webp",
@@ -43,6 +45,22 @@ export const featureData = [
 </p>
     `,
     galleryImages: [
+      "/assets/img/portfolio/square/vehicle/allgreen-2-square.webp",
+      "/assets/img/portfolio/square/vehicle/cheshire-basements-3-square.webp",
+      "/assets/img/portfolio/square/vehicle/cheshire-soils-2-square.webp",
+      "/assets/img/portfolio/square/vehicle/chesire-basements-square.webp",
+      "/assets/img/portfolio/square/vehicle/chesire-soils-3-square.webp",
+      "/assets/img/portfolio/square/vehicle/chesire-soils-square.webp",
+      "/assets/img/portfolio/square/vehicle/dg-square.webp",
+      "/assets/img/portfolio/square/vehicle/grabs-r-us-square.webp",
+      "/assets/img/portfolio/square/vehicle/road-markings-square.webp",
+      "/assets/img/portfolio/square/vehicle/sgr-square.webp",
+      "/assets/img/portfolio/square/vehicle/t&c-square.webp",
+      "/assets/img/portfolio/square/vehicle/ukap-2-sqaure.webp",
+      "/assets/img/portfolio/square/vehicle/ukap-3-square.webp",
+      "/assets/img/portfolio/square/vehicle/vehicle-wrap-square.webp",
+      "/assets/img/portfolio/square/vehicle/vistascape-square.webp",
+      "/assets/img/portfolio/square/vehicle/allgreen-square.webp",
       "/assets/img/portfolio/msb-1.webp",
       "/assets/img/portfolio/msb-2.webp",
       "/assets/img/portfolio/msb-3.webp",
@@ -62,6 +80,12 @@ export const featureData = [
     <p class='sec-text mt-30'>We pride ourselves on our ability to produce unique work based on the needs of every individual client.</p>
     `,
     galleryImages: [
+      "/assets/img/portfolio/square/wall-art/cargo-overseas-square.webp",
+      "/assets/img/portfolio/square/wall-art/chesire-basements-2-square.webp",
+      "/assets/img/portfolio/square/wall-art/Cyb_Values-square.webp",
+      "/assets/img/portfolio/square/wall-art/cyber-wall-square.webp",
+      "/assets/img/portfolio/square/wall-art/plane-square.webp",
+      "/assets/img/portfolio/square/wall-art/simply-cargo-square.webp",
       "/assets/img/portfolio/trilogy-1-square.webp",
       "/assets/img/portfolio/trilogy-2-square.webp",
     ],

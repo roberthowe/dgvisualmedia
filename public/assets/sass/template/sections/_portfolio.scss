@@ -170,12 +170,12 @@
   .portfolio-details {
     position: absolute;
     left: 0;
-    bottom: -25px;
+    bottom: 0;
     padding: 0 0 40px 40px;
     z-index: 1;
     max-width: 350px;
     transition: 0.4s;
-    opacity: 0;
+    opacity: 1;
     .portfolio-meta {
       color: $white-color;
       li a {
@@ -190,13 +190,16 @@
       }
     }
   }
+  &:after {
+    opacity: 1;
+    height: 100%;
+  }
   &:hover {
     &:after {
-      opacity: 1;
-      height: 100%;
+      opacity: 0;
     }
     .portfolio-details {
-      opacity: 1;
+      opacity: 0;
       bottom: 0;
     }
   }

@@ -52,6 +52,7 @@ export const portfolioData = [
     title: "NG Transport",
     service: "Vehicle Graphic",
     parentClass: "col-lg-7",
+    portfolioVideo: "/assets/video/ng-video.mp4",
     portfolioImages: [
       "/assets/img/portfolio/ng-transport-1-square.webp",
       "/assets/img/portfolio/ng-transport-2-square.webp",
@@ -71,14 +72,16 @@ export const portfolioData = [
   {
     id: 4,
     slug: 'trilogy-freight',
-    imageUrl: "/assets/img/portfolio/trilogy-1-square.webp",
-    category: "Vehicle Graphic",
+    imageUrl: "/assets/img/portfolio/trilogy-1.webp",
+    category: "Wall Art",
     title: "Trilogy Freight",
-    service: "Vehicle Graphic",
+    service: "Wall Art",
     parentClass: "col-lg-5",
+    portfolioImagesFullWidth: [
+      "/assets/img/portfolio/trilogy-1.webp",
+      "/assets/img/portfolio/trilogy-2.webp",
+    ],
     portfolioImages: [
-      "/assets/img/portfolio/trilogy-1-square.webp",
-      "/assets/img/portfolio/trilogy-2-square.webp",
       "/assets/img/portfolio/trilogy-3-square.webp",
       "/assets/img/portfolio/trilogy-4-square.webp",
     ],

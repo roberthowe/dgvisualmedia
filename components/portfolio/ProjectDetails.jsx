@@ -47,6 +47,32 @@ export default function ProjectDetails({ portfolioItem }) {
               dangerouslySetInnerHTML={{ __html: portfolioItem.htmlContent }}
             />
           </div>
+          {portfolioItem.portfolioVideo && (
+            <div className='col-xl-12 mt-5 mb-40'>
+              {/* <h2 class='sec-title mt-30'>Video</h2> */}
+              <video width='100%' height='auto' controls>
+                <source src={portfolioItem.portfolioVideo} type='video/mp4' />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          )}
+
+          {/* Full Width Images */}
+          {portfolioItem?.portfolioImagesFullWidth &&
+            portfolioItem.portfolioImagesFullWidth.map((elm, i) => (
+              <div key={i} className='col-xl-12 mb-20'>
+                <div className='project-inner-thumb wow img-custom-anim-top animated'>
+                  <Image
+                    width={1296}
+                    height={700}
+                    className='w-100'
+                    src={elm}
+                    alt='img'
+                  />
+                </div>
+              </div>
+            ))}
+
           <ResponsiveMasonry
             columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
             gutterBreakpoints={{ 350: '12px', 750: '16px', 900: '24px' }}

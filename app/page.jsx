@@ -1,8 +1,8 @@
 import Header from '@/components/headers/Header';
 import Blogs from '@/components/homes/home-2/Blogs';
 import Features from '@/components/homes/home-2/Features';
-import Hero from '@/components/homes/home-5/Hero';
-import Testimonials from '@/components/homes/home-5/Testimonials';
+import Hero from '@/components/homes/home-dg/Hero';
+import Testimonials from '@/components/homes/home-dg/Testimonials';
 
 import Projects from '@/components/homes/home-4/Projects';
 import Skills from '@/components/homes/common/Skills';

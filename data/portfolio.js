@@ -55,6 +55,7 @@ export const portfolioData = [
     portfolioVideo: "/assets/video/ng-video.mp4",
     portfolioVideoImage: "/assets/video/ng-video-image.webp",
     portfolioImages: [
+      "/assets/img/portfolio/square/signs/ng-transport-5-square.webp",
       "/assets/img/portfolio/ng-transport-1-square.webp",
       "/assets/img/portfolio/ng-transport-2-square.webp",
       "/assets/img/portfolio/ng-transport-3-square.webp",
@@ -80,9 +81,9 @@ export const portfolioData = [
     parentClass: "col-lg-5",
     portfolioImagesFullWidth: [
       "/assets/img/portfolio/trilogy-1.webp",
-      "/assets/img/portfolio/trilogy-2.webp",
     ],
     portfolioImages: [
+      "/assets/img/portfolio/trilogy-5-square.webp",
       "/assets/img/portfolio/trilogy-3-square.webp",
       "/assets/img/portfolio/trilogy-4-square.webp",
     ],

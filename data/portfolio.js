@@ -53,6 +53,7 @@ export const portfolioData = [
     service: "Vehicle Graphic",
     parentClass: "col-lg-7",
     portfolioVideo: "/assets/video/ng-video.mp4",
+    portfolioVideoImage: "/assets/video/ng-video-image.webp",
     portfolioImages: [
       "/assets/img/portfolio/ng-transport-1-square.webp",
       "/assets/img/portfolio/ng-transport-2-square.webp",

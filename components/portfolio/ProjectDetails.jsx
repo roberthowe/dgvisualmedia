@@ -1,5 +1,6 @@
 'use client';
 import { allPortfolio } from '@/data/portfolio';
+import Video from '@/components/homes/home-dg/Video';
 import Image from 'next/image';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 export default function ProjectDetails({ portfolioItem }) {
@@ -50,10 +51,10 @@ export default function ProjectDetails({ portfolioItem }) {
           {portfolioItem.portfolioVideo && (
             <div className='col-xl-12 mt-5 mb-40'>
               {/* <h2 class='sec-title mt-30'>Video</h2> */}
-              <video width='100%' height='auto' controls>
-                <source src={portfolioItem.portfolioVideo} type='video/mp4' />
-                Your browser does not support the video tag.
-              </video>
+              <Video
+                videoUrl={portfolioItem.portfolioVideo}
+                imageUrl={portfolioItem.portfolioVideoImage}
+              />
             </div>
           )}
 

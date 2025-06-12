@@ -10,7 +10,7 @@ export default function Testimonials() {
     dots: false,
     centerMode: true,
     centerPadding: '470px',
-    arrows: false,
+    arrows: true,
     autoplay: true,
     responsive: [
       {

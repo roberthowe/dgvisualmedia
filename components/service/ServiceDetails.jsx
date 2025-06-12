@@ -21,16 +21,19 @@ export default function ServiceDetails({ serviceSlug }) {
       </div>
       <div className='container'>
         <div className='row align-items-center justify-content-center'>
-          <div className='col-xl-8 mt-30 mb-60'>
-            <div dangerouslySetInnerHTML={{ __html: service.htmlContent }} />
-          </div>
           {/* videoLoop */}
-          {service.videoLoop && (
+          {service.videoLoopDesktop && (
             <VideoLoop
-              videoUrl={service.videoLoop}
+              mobileVideoUrl={service.videoLoopMobile}
+              desktopVideoUrl={service.videoLoopDesktop}
               imageUrl={service.portfolioVideoImage}
             />
           )}
+
+          <div className='col-xl-8 mt-30 mb-60'>
+            <div dangerouslySetInnerHTML={{ __html: service.htmlContent }} />
+          </div>
+
           {/* Gallery Images */}
           {service?.galleryImages && (
             <ResponsiveMasonry

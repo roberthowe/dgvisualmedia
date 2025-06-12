@@ -9,7 +9,8 @@ export const featureData = [
     htmlContent: `
     <p class='sec-text mt-30'>In today’s fast-paced world, you have just seconds to make a lasting impression. That’s why strong branding is essential. At the heart of it all is your logo, a powerful visual that captures attention and instantly communicates the essence of your business. While a logo is only one element, it lays the foundation for your entire brand story. From concept to execution, we craft cohesive branding that reflects your values, resonates with your audience, and sets you apart from the competition.</p>
     `,
-    videoLoop: '/assets/video/dg-branding.mp4',
+    videoLoopMobile: '/assets/video/dg-branding-mobile.mp4',
+    videoLoopDesktop: '/assets/video/dg-branding.mp4',
     portfolioVideoImage: '/assets/img/branding-header.webp',
   },
   {
@@ -64,17 +65,15 @@ export const featureData = [
       "/assets/img/portfolio/square/vehicle/grabs-r-us-square.webp",
       "/assets/img/portfolio/square/vehicle/road-markings-square.webp",
       "/assets/img/portfolio/square/vehicle/sgr-square.webp",
+      "/assets/img/portfolio/msb-2.webp",
       "/assets/img/portfolio/square/vehicle/t&c-square.webp",
       "/assets/img/portfolio/square/vehicle/ukap-2-sqaure.webp",
       "/assets/img/portfolio/square/vehicle/ukap-3-square.webp",
-      "/assets/img/portfolio/square/vehicle/vehicle-wrap-square.webp",
       "/assets/img/portfolio/square/vehicle/vistascape-square.webp",
       "/assets/img/portfolio/square/vehicle/allgreen-square.webp",
       "/assets/img/portfolio/msb-1.webp",
-      "/assets/img/portfolio/msb-2.webp",
       "/assets/img/portfolio/msb-3.webp",
       "/assets/img/portfolio/msb-4.webp",
-      "/assets/img/portfolio/msb-5.webp",
     ],
   },
   {

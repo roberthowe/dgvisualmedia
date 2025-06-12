@@ -55,9 +55,8 @@ export const portfolioData = [
     portfolioVideo: "/assets/video/ng-video.mp4",
     portfolioVideoImage: "/assets/video/ng-video-image.webp",
     portfolioImages: [
-      "/assets/img/portfolio/square/signs/ng-transport-5-square.webp",
       "/assets/img/portfolio/ng-transport-1-square.webp",
-      "/assets/img/portfolio/ng-transport-2-square.webp",
+      "/assets/img/portfolio/square/signs/ng-transport-5-square.webp",
       "/assets/img/portfolio/ng-transport-3-square.webp",
     ],
     metaDescription: "",
@@ -79,11 +78,10 @@ export const portfolioData = [
     parentClass: "col-lg-5",
     portfolioImagesFullWidth: [
       "/assets/img/portfolio/trilogy-1.webp",
+      "/assets/img/portfolio/trilogy-5-square.webp",
     ],
     portfolioImages: [
-      "/assets/img/portfolio/trilogy-5-square.webp",
       "/assets/img/portfolio/trilogy-3-square.webp",
-      "/assets/img/portfolio/trilogy-4-square.webp",
     ],
     htmlContent: `
     <p class='sec-text mt-30'>In 2015, 3 haulage companies merged & DG was faced with the task of designing a logo to kickstart the new companies brand journey.</p>

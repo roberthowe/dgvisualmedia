@@ -66,8 +66,6 @@ export const portfolioData = [
     <p class='sec-text mt-30'>They had a logo which had been created by a friend many years ago when the company was starting out. This had served a purpose to get them going but wasn’t serving to provide the visual identity that reflects their professional service.</p>
     <p class='sec-text mt-30'>Although the logo needed updating, a decision was made to adopt elements of the original logo which had become recognisable as the mark of an established & trusted service.</p>
     <p class='sec-text mt-30'>Once their logo was brought up to date, NG Transport were happy to trust us with their new fleet livery & the company branding began to reflect their professional service.</p>
-    <h2 class='sec-title mt-30'>A lesson that can be learned from NG Transports experience…</h2>
-    <p class='sec-text mt-30'>Trusting 3rd party signage companies with applying their new graphics who didn’t adhere to brand guide lines resulted in a mix match fleet. This compromised brand consistency. Brand consistency is invaluable when building brand trust with customers.</p>
     <p class='sec-text mt-30'>DG Visual Media has gone on to re-design NG Transports website, design, manufacture & install warehouse & office signage & displays. We also continue to provide livery for their ever-growing fleet.</p>
     `
   },

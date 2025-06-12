@@ -9,11 +9,8 @@ export const featureData = [
     htmlContent: `
     <p class='sec-text mt-30'>In today’s fast-paced world, you have just seconds to make a lasting impression. That’s why strong branding is essential. At the heart of it all is your logo, a powerful visual that captures attention and instantly communicates the essence of your business. While a logo is only one element, it lays the foundation for your entire brand story. From concept to execution, we craft cohesive branding that reflects your values, resonates with your audience, and sets you apart from the competition.</p>
     `,
-    galleryImages: [
-      "/assets/img/portfolio/msb-1.webp",
-      "/assets/img/portfolio/ng-transport-1-square.webp",
-      "/assets/img/portfolio/trilogy-3-square.webp",
-    ],
+    videoLoop: '/assets/video/dg-branding.mp4',
+    portfolioVideoImage: '/assets/img/branding-header.webp',
   },
   {
     id: 2,
@@ -26,13 +23,19 @@ export const featureData = [
     <p class='sec-text mt-30'>We provide a complete ‘one-stop-shop’ solution for all your sign and display needs. Whether it’s eye-catching shop-front signage, impactful point-of-sale displays, promotional banners, or interior and exterior signs, we bring your brand to life. Our end-to-end service covers everything from concept development and creative design to expert manufacturing and seamless installation. No matter the scale of your project, we’re here to ensure your brand stands out with stunning visual impact.</p>
     `,
     galleryImages: [
+      "/assets/img/portfolio/sign-and-display/bridge-sign.webp",
+      "/assets/img/portfolio/sign-and-display/dg-sign.webp",
+      "/assets/img/portfolio/sign-and-display/t-c-sign.webp",
+      "/assets/img/portfolio/sign-and-display/t-c-sign-2.webp",
+      "/assets/img/portfolio/sign-and-display/studio-sign.webp",
+      "/assets/img/portfolio/sign-and-display/havas-sign.webp",
       "/assets/img/portfolio/square/signs/ng-transport-5-square.webp",
       "/assets/img/portfolio/square/signs/caft-square.webp",
+      "/assets/img/portfolio/square/signs/cargo-overseas-sign-square.webp",
       "/assets/img/portfolio/square/signs/revive-square.webp",
       "/assets/img/portfolio/square/signs/railway-square.webp",
       "/assets/img/portfolio/square/signs/divine-wellness-square.webp",
       "/assets/img/portfolio/square/signs/ems-lounge-square.webp",
-      "/assets/img/portfolio/cargo-overseas-sign-square.webp",
       "/assets/img/portfolio/pure-padel-1-square.webp",
       "/assets/img/portfolio/pure-padel-3-square.webp",
       "/assets/img/portfolio/trilogy-3-square.webp",
@@ -86,6 +89,7 @@ export const featureData = [
     <p class='sec-text mt-30'>We pride ourselves on our ability to produce unique work based on the needs of every individual client.</p>
     `,
     galleryImages: [
+      "/assets/img/portfolio/wall-art/havas-wall.webp",
       "/assets/img/portfolio/square/wall-art/stockport-square.webp",
       "/assets/img/portfolio/square/wall-art/cargo-overseas-square.webp",
       "/assets/img/portfolio/square/wall-art/Cyb_Values-square.webp",

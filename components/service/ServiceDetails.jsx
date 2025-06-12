@@ -3,7 +3,7 @@
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { allFeatures } from '@/data/features';
 import Image from 'next/image';
-import Link from 'next/link';
+import VideoLoop from './VidepLoop';
 
 export default function ServiceDetails({ serviceSlug }) {
   const service = allFeatures.filter((elm) => elm.slug === serviceSlug)[0];
@@ -24,27 +24,37 @@ export default function ServiceDetails({ serviceSlug }) {
           <div className='col-xl-8 mt-30 mb-60'>
             <div dangerouslySetInnerHTML={{ __html: service.htmlContent }} />
           </div>
-          <ResponsiveMasonry
-            columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-            gutterBreakpoints={{ 350: '12px', 750: '16px', 900: '24px' }}
-          >
-            <Masonry>
-              {service?.galleryImages &&
-                service.galleryImages.map((elm, i) => (
-                  <div key={i} className='col-xl-12'>
-                    <div className='project-inner-thumb wow img-custom-anim-top animated'>
-                      <Image
-                        width={1296}
-                        height={700}
-                        className='w-100'
-                        src={elm}
-                        alt='img'
-                      />
+          {/* videoLoop */}
+          {service.videoLoop && (
+            <VideoLoop
+              videoUrl={service.videoLoop}
+              imageUrl={service.portfolioVideoImage}
+            />
+          )}
+          {/* Gallery Images */}
+          {service?.galleryImages && (
+            <ResponsiveMasonry
+              columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
+              gutterBreakpoints={{ 350: '12px', 750: '16px', 900: '24px' }}
+            >
+              <Masonry>
+                {service?.galleryImages &&
+                  service.galleryImages.map((elm, i) => (
+                    <div key={i} className='col-xl-12'>
+                      <div className='project-inner-thumb wow img-custom-anim-top animated'>
+                        <Image
+                          width={1296}
+                          height={700}
+                          className='w-100'
+                          src={elm}
+                          alt='img'
+                        />
+                      </div>
                     </div>
-                  </div>
-                ))}
-            </Masonry>
-          </ResponsiveMasonry>
+                  ))}
+              </Masonry>
+            </ResponsiveMasonry>
+          )}
         </div>
       </div>
     </div>

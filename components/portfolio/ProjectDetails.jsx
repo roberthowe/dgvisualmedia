@@ -74,6 +74,22 @@ export default function ProjectDetails({ portfolioItem }) {
               </div>
             ))}
 
+          {/* Half Width Images */}
+          {portfolioItem?.portfolioImagesHalfWidth &&
+            portfolioItem.portfolioImagesHalfWidth.map((elm, i) => (
+              <div key={i} className='col-xl-6 mb-20'>
+                <div className='project-inner-thumb wow img-custom-anim-top animated'>
+                  <Image
+                    width={1296}
+                    height={700}
+                    className='w-100'
+                    src={elm}
+                    alt='img'
+                  />
+                </div>
+              </div>
+            ))}
+
           <ResponsiveMasonry
             columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
             gutterBreakpoints={{ 350: '12px', 750: '16px', 900: '24px' }}

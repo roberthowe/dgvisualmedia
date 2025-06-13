@@ -78,11 +78,14 @@ export const portfolioData = [
     parentClass: "col-lg-5",
     portfolioImagesFullWidth: [
       "/assets/img/portfolio/trilogy-1.webp",
-      "/assets/img/portfolio/trilogy-5-square.webp",
     ],
-    portfolioImages: [
+    portfolioImagesHalfWidth: [
+      "/assets/img/portfolio/trilogy-5-square.webp",
       "/assets/img/portfolio/trilogy-3-square.webp",
     ],
+    // portfolioImages: [
+    //   "/assets/img/portfolio/trilogy-3-square.webp",
+    // ],
     htmlContent: `
     <p class='sec-text mt-30'>In 2015, 3 haulage companies merged & DG was faced with the task of designing a logo to kickstart the new companies brand journey.</p>
     <p class='sec-text mt-30'>The 3-colour circle shaped arrow icon symbolises the harmonious merging of the 3 companies. Moreover, the smooth transition from colour to colour through the arrow represents the straightforward & untroubled carriage of freight that Trilogy clients can expect.</p>

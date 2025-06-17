@@ -3,7 +3,8 @@ export const featureData = [
     id: 1,
     slug: 'branding',
     iconSrc: "/assets/img/icon/dg-branding-icon.png",
-    headerImage: "/assets/img/branding-header.webp",
+    headerImage: "/assets/img/branding-header.jpg",
+    noBgOverlay: true,
     title: "Branding",
     text: "Concept to Creation. Distinctive Branding That Makes an Impact",
     htmlContent: `
@@ -50,7 +51,7 @@ export const featureData = [
     title: "Vehicle Graphic Wraps & Decals",
     text: "Brand Recognition On the Move?",
     htmlContent: `
-    <p class='sec-text mt-30'>We offer a full-service solution for all your vehicle graphics, wraps, and decal needs. Whether you're looking to turn a single vehicle into a mobile billboard or wrap an entire fleet, we deliver designs that get noticed. From custom decals and branding to full or partial vehicle wraps, our team handles everything, from creative concept and design to professional installation. With high-quality materials and attention to detail, we ensure your vehicle makes a bold, lasting impression wherever it goes.
+    <p class='sec-text mt-30'>We’ve got you covered for everything from vehicle graphics and decals to full wraps. Whether you want to turn one car into a moving billboard or deck out your whole fleet, we create designs that get attention. We take care of it all — from the first idea to the final install — with custom designs, quality materials, and a sharp eye for detail. The result? A bold, professional look that stands out wherever you go.
 </p>
     `,
     galleryImages: [

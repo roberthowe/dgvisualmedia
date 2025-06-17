@@ -73,9 +73,18 @@
   overflow: hidden;
   position: relative;
   z-index: auto;
-  background: $smoke-color;
+  background: $yellow-color;
   margin-top: 0;
   text-align: center;
+
+  &.breadcrumb-wrapper-no-overlay {
+    .breadcumb-title {
+      color: $black-color;
+    }
+    &:after {
+      display: none;
+    }
+  }
   &:after {
     content: '';
     position: absolute;

@@ -10,14 +10,38 @@ export default function ServiceDetails({ serviceSlug }) {
   return (
     <div className='service-details-page-area space'>
       <div
-        className='breadcumb-wrapper'
-        style={{ backgroundImage: `url(${service?.headerImage})` }}
+        className={`breadcumb-wrapper ${
+          service?.noBgOverlay && 'breadcrumb-wrapper-no-overlay'
+        }`}
+        style={
+          service?.headerImage && {
+            backgroundImage: `url(${service?.headerImage})`,
+          }
+        }
       >
         <div className='container'>
           <div className='breadcumb-content'>
             <h1 className='breadcumb-title'>{service?.title}</h1>
           </div>
         </div>
+        {!service.headerImage && (
+          <div className='col-lg-5 align-self-center position-absolute'>
+            <div
+              className='text-center pb-5 pb-md-0'
+              data-ani='slideindown'
+              data-ani-delay='0.3s'
+            >
+              <Image
+                width={250}
+                height={250}
+                src='/assets/img/hero/dg-bee-mascot.png'
+                alt='img'
+                className='floating-image'
+              />
+              <div className='shadow'></div>
+            </div>
+          </div>
+        )}
       </div>
       <div className='container'>
         <div className='row align-items-center justify-content-center'>

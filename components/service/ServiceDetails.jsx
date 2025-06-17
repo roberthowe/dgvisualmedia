@@ -44,7 +44,7 @@ export default function ServiceDetails({ serviceSlug }) {
         )}
       </div>
       <div className='container'>
-        <div className='row align-items-center justify-content-center'>
+        <div className='row align-items-center justify-content-center mt-60'>
           {/* videoLoop */}
           {service.videoLoopDesktop && (
             <VideoLoop

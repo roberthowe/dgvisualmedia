@@ -59,10 +59,10 @@
     font-size: 60px;
   }
   @include sm {
-    font-size: 40px;
+    font-size: 30px;
   }
   @include xs {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
@@ -88,6 +88,7 @@
     @include sm {
       background-position: 50% 50% !important;
       background-size: 115% !important;
+      background-repeat: no-repeat !important;
       text-align: center;
     }
   }

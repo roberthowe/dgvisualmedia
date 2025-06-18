@@ -26,9 +26,9 @@ export default function VideoLoop({
       <div className='container-fluid p-0'>
         <div className='row'>
           <div className='col-lg-12'>
-            <div className='video-wrap'>
+            {isMobile && (
               <video
-                className='w-100 h-100 object-cover'
+                className='w-100'
                 autoPlay
                 loop
                 muted
@@ -36,13 +36,26 @@ export default function VideoLoop({
                 preload='auto'
                 poster={imageUrl}
               >
-                <source
-                  src={isMobile ? mobileVideoUrl : desktopVideoUrl}
-                  type='video/mp4'
-                />
+                <source src={mobileVideoUrl} type='video/mp4' />
                 Your browser does not support the video tag.
               </video>
-            </div>
+            )}
+            {!isMobile && (
+              <div className='video-wrap'>
+                <video
+                  className='w-100'
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload='auto'
+                  poster={imageUrl}
+                >
+                  <source src={desktopVideoUrl} type='video/mp4' />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            )}
           </div>
         </div>
       </div>

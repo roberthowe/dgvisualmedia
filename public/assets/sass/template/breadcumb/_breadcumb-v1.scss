@@ -93,6 +93,7 @@
     opacity: 0.4;
   }
   @include sm {
+    background-position: 65% 50% !important;
     text-align: center;
   }
   &.style2 {

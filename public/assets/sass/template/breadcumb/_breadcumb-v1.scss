@@ -84,6 +84,12 @@
     &:after {
       display: none;
     }
+
+    @include sm {
+      background-position: 50% 50% !important;
+      background-size: 115% !important;
+      text-align: center;
+    }
   }
   &:after {
     content: '';
@@ -93,7 +99,7 @@
     opacity: 0.4;
   }
   @include sm {
-    background-position: 65% 50% !important;
+    background-position: 50% 50% !important;
     text-align: center;
   }
   &.style2 {

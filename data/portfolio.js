@@ -52,6 +52,8 @@ export const portfolioData = [
     title: "NG Transport",
     service: "Vehicle Graphic",
     parentClass: "col-lg-7",
+    websiteName: "www.ngtransport.co.uk",
+    websiteUrl: "https://www.ngtransport.co.uk/",
     portfolioVideo: "/assets/video/ng-video.mp4",
     portfolioVideoImage: "/assets/video/ng-video-image.webp",
     portfolioImages: [

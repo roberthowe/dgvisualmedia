@@ -21,6 +21,18 @@ export default function ProjectDetails({ portfolioItem }) {
           <div className='col-xl-3 col-lg-4'>
             <div className='project-details-info mt-5 mb-40'>
               <ul className='list-wrap'>
+                {portfolioItem?.websiteUrl && (
+                  <li>
+                    <span>Website:</span>
+                    <a
+                      href={portfolioItem.websiteUrl}
+                      target='_blank'
+                      className='text-black'
+                    >
+                      {portfolioItem.websiteName}
+                    </a>
+                  </li>
+                )}
                 <li>
                   <span>Category:</span>
                   {portfolioItem.category}

@@ -12,7 +12,7 @@ export const featureData = [
     `,
     videoLoopMobile: '/assets/video/dg-branding-mobile.mp4',
     videoLoopDesktop: '/assets/video/dg-branding.mp4',
-    portfolioVideoImage: '/assets/img/branding-header.webp',
+    portfolioVideoImage: '/assets/img/dg-logo.png',
   },
   {
     id: 2,

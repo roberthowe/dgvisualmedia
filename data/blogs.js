@@ -250,6 +250,103 @@ export const blogs = [
 
     icon: "/assets/img/icon/arrow-left-top.svg",
   },
+  {
+    id: 4,
+    slug: "what-goes-into-a-design",
+    image: "/assets/img/what-goes-into-a-design.png",
+    date: "28th July, 2025",
+    category: "Design",
+    title: "What Goes into a Design (Hint: It’s Way More Than “Clicking Buttons”)",
+    metaDescription: 'Design isn’t just clicking buttons, it’s strategy, structure, and a whole lot of behind-the-scenes work. Peek into the real process of thoughtful, professional design.',
+    preview: `Design might look effortless when it's done — but behind every clean, balanced layout is a whole lot of thinking, tinkering, and coffee.`,
+    htmlContent: `<p class="mb-4">
+  Design might look effortless when it's done — but behind every clean, balanced layout is a whole lot of thinking, tinkering, and coffee. Lots of coffee. So no, I’m not “just playing with fonts.” Here’s a peek behind the curtain:
+  </p>
+
+  <h2 class="mt-5 mb-3">Step One: Understand the Brand</h2>
+
+  <p class="mb-4">
+  Before anything hits the screen, I start with a bit of detective work. I:
+  </p>
+
+
+  <ul class="mb-4">
+    <li>Dig through your current stuff (business cards, website, possibly that logo from 2008… 👀)</li>
+    <li>Learn who your audience is and what you actually want to say.</li>
+    <li>Figure out where the design will live — is it wrapping a van or living on Instagram?</li>
+  </ul>
+
+  <p class="mb-4">
+  Because designing a billboard the same way you'd design a business card? That’s a no from me.
+  </p>
+
+    <h3 class="mt-5 mb-3">Step Two: The Actual “Designing” Bit</h3>
+
+  <p class="mb-4">
+    This is where the magic (and the muttering at my screen) begins:
+  </p>
+
+  <ul class="mb-4">
+    <li>Sketching layouts, testing concepts, and throwing out the first five ideas</li>
+    <li>Picking fonts, colours, and spacing that don’t just look good — they work at all sizes.</li>
+    <li>Making sure everything matches your brand and doesn’t scream “made in Canva free trial”.</li>
+  </ul>
+
+    <p class="mb-4">
+      Oh, and yes — one colour change often means I have to rebalance everything else. It’s like changing one tire and finding out the whole car is leaning.
+    </p>
+
+     <h3 class="mt-5 mb-3">Step Three: Refine & Prep</h3>
+
+    <p class="mb-4">
+      Once we’ve got a solid direction:
+    </p>
+
+  <ul class="mb-4">
+    <li>I zoom out (literally) to test how it looks at full scale — like on a van, a building, or your dog’s sweater (kidding… unless?)</li>
+    <li>Revisions happen, feedback gets applied, and everything starts to click.</li>
+    <li>Then I prep the files in the right formats, so your printer doesn’t cry.</li>
+  </ul>
+
+  <p class="mb-4">
+    No fuzzy screenshots. No wrong file types. Just clean, usable design.
+    </p>
+
+
+    <h3 class="mt-5 mb-3">Why It Takes Time (and Why That’s a Good Thing)</h3>
+
+    <p class="mb-4">
+      Design isn’t just about making something look nice. It’s about:
+    </p>
+
+  <ul class="mb-4">
+    <li>Telling your brand story visually</li>
+    <li>Making it work across platforms and formats.</li>
+    <li>Creating something you’re proud to show off.</li>
+  </ul>
+
+
+    <p class="mb-4">Rushing leads to design that looks... like it was rushed.</p>
+
+    <h3 class="mt-5 mb-3">What You Actually Get</h3>
+
+  <ul class="mb-4">
+    <li>A design that’s custom, polished, and built with your goals in mind — not a template with your name slapped on</li>
+    <li>A creative partner who thinks beyond one project</li>
+    <li>A smoother, faster process down the road (especially if we create a brand guide together — future-you will thank us)</li>
+
+  <h3 class="mt-5 mb-3">Ready for design that does more than “look good”?</h3>
+
+  <p class="mb-4">Let’s talk. Whether you’re rebranding or just need one solid piece done right, DG is here to help.</p>
+
+  <p class="mb-4"><a href="/contact" class="text-decoration-underline black">Get in touch</a> and let’s make something great.</p>
+
+  <p class="mb-4">Know someone who thinks design is just picking fonts? Send this their way. (Gently. With love.)</p>
+
+`,
+
+    icon: "/assets/img/icon/arrow-left-top.svg",
+  },
 ];
 
 export const allBlogs = [...blogs];

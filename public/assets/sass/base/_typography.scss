@@ -108,6 +108,10 @@ a {
     text-decoration: none;
     outline: 0;
   }
+
+  &.black {
+    color: $body-color;
+  }
 }
 
 button {

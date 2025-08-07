@@ -63,11 +63,12 @@ export const portfolioData = [
     ],
     metaDescription: "",
     htmlContent: `
-    <p class='sec-text mt-30'>NG Transport approached DG Visual Media several years back looking for a fresh look for the their vehicle livery.</p>
-    <p class='sec-text mt-30'>They had a logo which had been created by a friend many years ago when the company was starting out. This had served a purpose to get them going but wasn’t serving to provide the visual identity that reflects their professional service.</p>
-    <p class='sec-text mt-30'>Although the logo needed updating, a decision was made to adopt elements of the original logo which had become recognisable as the mark of an established & trusted service.</p>
-    <p class='sec-text mt-30'>Once their logo was brought up to date, NG Transport were happy to trust us with their new fleet livery & the company branding began to reflect their professional service.</p>
-    <p class='sec-text mt-30'>DG Visual Media has gone on to re-design NG Transports website, design, manufacture & install warehouse & office signage & displays. We also continue to provide livery for their ever-growing fleet.</p>
+    <h2 class="mt-5 mb-3">NG Transport – A Complete Branding Transformation by DG Visual Media</h2>
+        <p class='sec-text mt-30'>NG Transport first approached DG Visual Media several years ago in search of a modern, professional vehicle livery design that would better represent their growing business.</p>
+        <p class='sec-text mt-30'>At the time, the company was using a logo originally created by a friend during its early days. While it had served its purpose in the beginning, the design no longer reflected the quality and professionalism of NG Transport’s services.</p>
+        <p class='sec-text mt-30'>Rather than starting from scratch, we chose to retain key elements of the original logo to maintain the visual recognition it had built over the years. This strategic logo redesign allowed NG Transport to preserve its brand identity while presenting a more refined and professional image.</p>
+        <p class='sec-text mt-30'>With their updated logo in place, NG Transport entrusted DG Visual Media to develop and apply new fleet vehicle livery across their expanding range of commercial vehicles. The updated branding now accurately reflects the high standards and reliability the company is known for.</p>
+        <p class='sec-text mt-30'>Following the success of the fleet branding, we continued to support NG Transport with a full website redesign, and the design, manufacture, and installation of custom warehouse and office signage. Our team remains proud to deliver high-quality graphics and vehicle livery for their continually growing fleet.</p>
     `
   },
   {
@@ -89,10 +90,11 @@ export const portfolioData = [
     //   "/assets/img/portfolio/trilogy-3-square.webp",
     // ],
     htmlContent: `
-    <p class='sec-text mt-30'>In 2015, 3 haulage companies merged & DG was faced with the task of designing a logo to kickstart the new companies brand journey.</p>
-    <p class='sec-text mt-30'>The 3-colour circle shaped arrow icon symbolises the harmonious merging of the 3 companies. Moreover, the smooth transition from colour to colour through the arrow represents the straightforward & untroubled carriage of freight that Trilogy clients can expect.</p>
-    <p class='sec-text mt-30'>In the years following, right up until present day DG has worked with Trilogy Freight to build a strong visual identity.</p>
-    <p class='sec-text mt-30'>From creating concise, and engaging infographics to make complex tariff data easier to digest to decorating offices to create a more engaging and visually appealing workspace.</p>
+    <h2 class="mt-5 mb-3">Trilogy Freight: A Seamless Brand Built from the Ground Up</h2>
+    <p class='sec-text mt-30'>In 2015, three established haulage companies merged to form Trilogy Freight, marking the beginning of a new chapter in the transport and logistics sector. DG was brought on board to lead the branding process, starting with a fresh, meaningful logo design that would reflect the company’s unified identity.</p>
+    <p class='sec-text mt-30'>The result was a clean, circular arrow icon formed from three colours—each representing one of the founding companies. The smooth transitions between colours symbolise the effortless, reliable freight service Trilogy aims to provide.</p>
+    <p class='sec-text mt-30'>As a creative studio offering logo design in Manchester, DG continued to work alongside Trilogy to develop a strong and consistent visual identity. This included producing easy-to-understand infographics that break down complex freight tariff data, as well as transforming their office interiors into branded, engaging workspaces.</p>
+    <p class='sec-text mt-30'>From initial concept to long-term brand evolution, the partnership between DG and Trilogy Freight shows the lasting impact of thoughtful design and strategic visual storytelling.</p>
     `
   },
 ];

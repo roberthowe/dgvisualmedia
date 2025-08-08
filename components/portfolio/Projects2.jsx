@@ -7,8 +7,8 @@ export default function Projects2() {
   return (
     <div className='portfolio-area-1 space overflow-hidden'>
       <div className='container'>
-        <div className='row gy-4 justify-content-center masonary-active d-flex align-items-stretch'>
-          {portfolioData.slice(0, 4).map((elm, i) => (
+        <div className='row gy-4 justify-content-start masonary-active d-flex align-items-stretch'>
+          {portfolioData.slice(0, 6).map((elm, i) => (
             <div key={i} className={elm.parentClass}>
               <div className='portfolio-card h-100'>
                 <Link
